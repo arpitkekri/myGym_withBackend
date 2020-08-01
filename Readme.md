@@ -6,7 +6,9 @@ I not added node_modules folder here
 
 You can download it in your system by below given command
 
-```npm install pug```
+```bash
+npm install pug
+```
 
 ```npm install express```
 
