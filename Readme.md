@@ -10,7 +10,9 @@ You can download it in your system by below given command
 npm install pug
 ```
 
-```npm install express```
+```bash
+npm install express
+```
 
 The response of the form given in the website will go under file output.txt
 
