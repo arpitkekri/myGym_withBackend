@@ -1,0 +1,132 @@
+/* CSS Reset */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/static/bg.jpg');
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    background-size: 1600px 1000px;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.left {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 8px;
+}
+
+.left img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 0px;
+    font-size: 25px;
+}
+
+.left:hover{
+    color: gray;
+    cursor: pointer;
+    filter: invert(45%);
+}
+
+.mid {
+    display: block;
+    width: 56%;
+    margin: 29px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    /* background-color: rgb(31, 30, 30); */
+    text-decoration: underline;
+    color: gray;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 70px 80px;
+    padding: 40px; 
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 425px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 11px auto;
+    font-size: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    position: static;
+}
