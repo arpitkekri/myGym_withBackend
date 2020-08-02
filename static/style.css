@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url('/static/bg.jpg');
+    background: url('bg.jpg');
     font-family: 'Baloo Bhai', cursive;
     color: white;
     background-size: 1600px 1000px;
