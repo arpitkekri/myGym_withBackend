@@ -6,7 +6,7 @@ const path = require("path");
 const fs = require("fs");
 const app = express();
 const port = 80;
-const home = fs.readFileSync('new.html')
+const home = fs.readFileSync('index.html')
 
 // EXPRESS SPECIFIC STUFF
 app.use('/static', express.static('static')); // For serving static file
