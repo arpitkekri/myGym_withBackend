@@ -13,12 +13,21 @@ app.use(express.urlencoded())
 
 // PUG SPECIFIC STUFF
 app.set('view engine','pug'); // Set the template engine as pug
+<<<<<<< HEAD
 app.set('views', path.join(__dirname, '')); // Set the view directory
 
 // ENDPOINTS
 app.get("/", (req, res)=>{
     // const con = "This is the best content on the internet so far so use it wisely";
     const params = { }
+=======
+app.set('views', path.join(__dirname, 'views')); // Set the view directory
+
+// ENDPOINTS
+app.get("/", (req, res)=>{
+    const con = "This is the best content on the internet so far so use it wisely";
+    const params = {'title': 'Fitness Website', "content": con}
+>>>>>>> 99a4462c0f509bef31077a1e729db09b471995a3
     res.status(200).render("index.pug", params);
 });
 
