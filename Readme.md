@@ -1,33 +1,42 @@
-# Fitness Website with backend
+# Fitness Website
 
-backend written in express and pug
+- Backend written in Node.js using express and pug
 
-I not added node_modules folder here
+## How to Use?
 
-You can download it in your system by below given command
+1. Just clone the repository in your local system.
+
+2. Install Node.js (if you are not installed).
+
+3. Run below command to install all the libraries used
 
 ```bash
-npm install pug
+npm install
 ```
+- It will create a node_module folder
 
-```bash
-npm install express
-```
+4. I added both frontend technologies (html and pug).
 
-The response of the form given in the website will go under file output.txt
+5. For run the server and use html format run the below command
 
-For run the server for use of backend 
-
-for run in html format
 ```bash
 node index.js
 ```
+- For run the server and use pug format run the below command
 
-for run in pug format
 ```bash
 node app.js
 ``` 
+- by default it is in the pug format
 
-by default it is in the pug format
+6. The response of the form given in the website will go under file output.txt
 
 Thanks for reading!!
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
