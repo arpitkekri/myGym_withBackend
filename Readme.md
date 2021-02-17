@@ -1,14 +1,14 @@
 # Fitness Website
 
-- Backend written in Node.js using express and pug
+- Backend written in Node.js using express and pug.
 
-## How to Use?
+## Below are some useful tips on How to Use this repository?
 
-1. Just clone the repository in your local system.
+1.  Clone the repository in your local system.
 
-2. Install Node.js (if you are not installed).
+2. Install Node.js (if you have not installed).
 
-3. Run below command to install all the libraries used
+3. Run the command given below to install all the libraries used
 
 ```bash
 npm install
@@ -22,7 +22,7 @@ npm install
 ```bash
 node index.js
 ```
-- For run the server and use pug format run the below command
+- For run the server and use pug format run the below command- 
 
 ```bash
 node app.js
